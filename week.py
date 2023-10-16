@@ -10,7 +10,7 @@ st.title('universities in uk')
 
 
 
-df = pd.read_csv(r"C:\Users\maraw\OneDrive\Desktop\test\uk_universities.csv")
+df = pd.read_csv("uk_universities.csv")
 df1 = df.sort_values(ascending=True, by="UK_rank").head(10)
 def plt_1():
     plt.figure(figsize=(15, 8))
